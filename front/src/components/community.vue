@@ -20,7 +20,7 @@ import router from "../router"
         }
     }
 </script>
-<style>
+<style scoped>
 
 
 .header2{

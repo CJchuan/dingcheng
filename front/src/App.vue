@@ -26,6 +26,7 @@ body,html{
   font-size:1.2rem;
   overflow:auto;
   height:100%;
+  background: #eee
 }
 ul,li{
   list-style:none

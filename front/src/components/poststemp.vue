@@ -30,7 +30,7 @@
     </div>
 </template>
 
-<script scoped>
+<script>
 import { MessageBox } from 'mint-ui';
 import router from "../router" ;
     export default {
@@ -41,7 +41,7 @@ import router from "../router" ;
             }
         },
         mounted(){
-            this.$http.get("http://localhost:3000/homeapi/posts").then(res=>{
+            this.$http.get("http://10.2.158.246:3000/homeapi/posts").then(res=>{
             console.log(res.body.data.list)
                     this.postslist=res.body.data.list
             })

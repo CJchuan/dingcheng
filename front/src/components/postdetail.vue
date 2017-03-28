@@ -53,7 +53,7 @@ import left from "./left.vue";
             }
         },
         mounted(){
-            this.$http.get(`http://localhost:3000/homeapi/postdetail?pagenum=1&postid=${this.$route.params.poid}`).then(res=>{
+            this.$http.get(`http://10.2.158.246:3000/homeapi/postdetail?pagenum=1&postid=${this.$route.params.poid}`).then(res=>{
             console.log(res.body.data)
                     this.data=res.body.data;
                     this.applylist=res.body.data.list;

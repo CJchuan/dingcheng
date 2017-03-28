@@ -26,6 +26,15 @@ import poststemp from "./poststemp.vue";
     }
 </script>
 
-<style>
-    
+<style scoped>
+    .header2{
+        height:4rem;
+        line-height:4rem;
+        color:#bc9461;
+        border-bottom:.1rem solid #ccc;
+    }
+    .header2 h2{
+        text-align:center;
+        display:inline-block;
+    }
 </style>

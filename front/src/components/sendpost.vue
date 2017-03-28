@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import left from "./left.vue";
 import Writecont from "./Writecont.vue";
     export default {
         name:'sendpost',
@@ -33,5 +34,14 @@ import Writecont from "./Writecont.vue";
 </script>
 
 <style scoped>
-
+  .header2{
+        height:4rem;
+        line-height:4rem;
+        color:#bc9461;
+        border-bottom:.1rem solid #ccc;
+    }
+    .header2 h2{
+        text-align:center;
+        display:inline-block;
+    }
 </style>
